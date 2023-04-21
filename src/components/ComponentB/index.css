@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.app-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.red-color {
+  background-color: red;
+  color: white;
+}
+
+.blue-color {
+  background-color: blue;
+  color: white;
+}
+
+.counter-container {
+  background-color: orangered;
+  padding: 30px;
+  height: 42vh;
+  width: 20vw;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: none;
+  border-width: 0px;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container {
+  margin: 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #edeade;
+  padding: 60px;
+  border-radius: 10px;
+}
